@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -14,7 +17,7 @@
 
 body {
     min-height: 100vh;
-    background: #747464;
+    background: beige;
 }
 
 header {
@@ -30,7 +33,7 @@ header {
     background: transparent;
     padding: 28px 12%;
     transition: all .50s ease;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255, 0.8);
     border-radius: 300px;
     margin: 20px auto;
     padding: 20px;
@@ -56,10 +59,12 @@ header {
 .navbar {
     display: flex;
     list-style: none;
+    position: sticky;
+    top: 0;
 }
 
 .navbar a {
-    color: #4B2E2E;
+    color: #4b2e2e;
     font-size: 1.1rem;
     font-weight: 500;
     padding: 5px 0px;
@@ -79,7 +84,7 @@ header {
 .main a {
     margin-right: 25px;
     margin-left: 10px;
-    color: #4B2E2E;
+    color: #4b2e46;
     font-size: 1.1rem;
     font-weight: 500;
     transition: all .50s ease;
@@ -107,6 +112,50 @@ header {
     z-index: 10001;
     display: none;
 }
+
+.imagem-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 120px auto;
+}
+
+.imagem-principal img {
+    width: 100%;
+    border-radius: 30px; 
+}
+
+.titulo-aulas {
+    color: #d32323;
+    text-align: center;
+    font-family: Dancing Script;
+    font-size: 50px;
+}
+
+.texto-aulas {
+    text-align: center;
+    font-family: Merriweather;
+    margin-top: 50px;
+}
+
+.links-paginas {
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    margin-top: 50px;
+}
+
+.links-paginas a {
+    color: #d32323;
+    padding: 10px;
+    transition: all .50s ease;
+}
+
+.links-paginas a:hover {
+    color: #4B2E2E;
+}
+
 
 @media (max-width: 1280px) {
     header {
