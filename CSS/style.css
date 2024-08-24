@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 
 * {
     padding: 0;
@@ -156,6 +157,64 @@ header {
     color: #4B2E2E;
 }
 
+.informacoes-jornadas {
+    background-image: url(/assets/ceramicas.png);
+    height: 100vh;
+    margin-top: 100px;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-jornada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.textos-jornada {
+    background-color: #ffffff;
+    border-radius: 50px;
+    text-align: center; 
+    justify-content: center;
+    margin-top: 80px;
+    max-width: 500px;
+    padding: 30px;
+
+}
+
+div h2 {
+    font-family: Kalam;
+    color: #63e0da;
+    font-size: 30px;
+}
+
+div p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #4b2e2e;
+    margin-top: 20px;
+}
+
+div button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    border-radius: 45px;
+    margin: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    background-color: #63e0da;
+    border: none;
+    box-shadow: 0px px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+div button:hover {
+    color: #f9f9f9;
+}
 
 @media (max-width: 1280px) {
     header {
