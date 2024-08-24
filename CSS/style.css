@@ -158,7 +158,7 @@ header {
 }
 
 .informacoes-jornadas {
-    background-image: url(/assets/ceramicas.png);
+    background-image: url(/assets/ceramicas.png);/*Fundo imagem*/
     height: 100vh;
     margin-top: 100px;
     background-position: center;
