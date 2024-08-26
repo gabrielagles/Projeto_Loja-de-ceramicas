@@ -341,4 +341,14 @@ div button:hover {
     .navbar.open {
         right: 2%;
     }
+
+    .imagens-informacoes-aulas {
+        flex-direction: column; /* Faz as imagens ficarem uma embaixo da outra */
+        align-items: center;    /* Centraliza as imagens */
+    }
+
+    .aula {
+        max-width: 100%; /* As imagens ocupam toda a largura disponível */
+        margin-bottom: 20px; /* Espaço entre as seções para melhor visualização */
+    }
 }
